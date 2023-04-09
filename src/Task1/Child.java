@@ -19,19 +19,19 @@ public class Child { // naziv klase
 
     }
 
-    public void setName() { // setter
+    public void setName(String name) { // setter
         this.name = name;
     }
 
-    public void setWeight() {
+    public void setWeight(double weight) {
         this.weight = weight;
     }
 
-    public void setAge() {
+    public void setAge(int age) {
         this.age = age;
     }
 
-    public void setDateOfBirth() {
+    public void setDateOfBirth(Date dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
     }
 
@@ -53,9 +53,9 @@ public class Child { // naziv klase
 
     public int futureAge(int numb) {
         return (numb + this.getAge());
-    }
+    } //metoda 1
 
-    public boolean isAdult(int age) {
+    public boolean isAdult(int age) { //metoda 2
         if (age >= 18)
             return true;
         else return false;

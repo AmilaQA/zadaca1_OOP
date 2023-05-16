@@ -6,7 +6,7 @@ import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Task 1");
+       /* System.out.println("Task 1");
         System.out.println("\n");
         Child child1 = new Child("Mustafa", 6, new Date(2017, 4, 25));
         System.out.println(child1.getName() + " will be " + child1.futureAge(5) + " in five years");
@@ -36,7 +36,8 @@ public class Main {
         System.out.println("The subtract of numbers is " + complexNumb4.getRealPart() + " + " + complexNumb4.getImaginaryPart() + "i");
 
         complexNumb1.printComplex();
+    }*/
+
+
     }
-
-
 }
